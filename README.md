@@ -1,1 +1,0 @@
-This is basic setup for react-redux in master branch
