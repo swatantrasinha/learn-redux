@@ -16,8 +16,8 @@ instead of separate component - CakeContainer and IceCreamContainer we can creat
 and decide what item to show cake or iceCream depending on prop passed
 
     <ItemContainerComp cake />   ==> check if cake is passed as props from App.js if yes then show Cake
-    <Itemcontainercomp  />       ==> if not cake(means nothing or any other value) then show iceCream
+    <ItemContainerComp  />       ==> if not cake(means nothing or any other value) then show iceCream
 
-    In the above the prop "cake" passed in ItemCOntainerCOmp in App.js will be captured in 
+    In the above the prop "cake" passed in ItemContainerComp in App.js will be captured in 
     ownProps of mapStateToProps and mapDispatchToProps
 

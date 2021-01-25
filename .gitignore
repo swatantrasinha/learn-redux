@@ -1,5 +1,7 @@
 /node_modules
 yarn.lock
 packagelock.json
+.eslintcache
 1_Basic_Setup/node_modules
 2_use_of_ownProps/node_modules
+3_redux_thunk/node_modules

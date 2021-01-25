@@ -32,7 +32,7 @@ const mapStateToProps = (complete_state) => {
 }
 
 const mapDispatchToProps = (dispatchCake) => {
-  console.log('CakeClassComp ==> mapStateToProps');
+  console.log('CakeClassComp ==> mapDispatchToProps');
   return {
     purchaseCake : () => dispatchCake(buyCake()),
     returnBackCake : () => dispatchCake(returnCake())
